@@ -533,3 +533,15 @@ body {
     margin: -75px auto 0;
     background-repeat: repeat-x;
 }
+
+.descBlock{
+ width: 590px;
+ margin: 0 auto;
+ padding-top: 101px;
+ padding-left: 25px;
+}
+
+.descText{
+ font-family: 'nokia_sans_s60regular';
+ font-size: 8px;
+}
