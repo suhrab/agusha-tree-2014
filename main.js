@@ -40,13 +40,27 @@ $(function () {
         $borderProductTpl
             .offset(productFrameOffset);
 
-        $borderProductTpl.show();
+        $borderProductTpl
+		.hide(0, function(){
+			$borderProductTpl.show(600);
+		});
+		
         var animateEffect = randomAnimateClasses[randomIntFromInterval(0, randomAnimateClasses.length-1)];
         $borderProductTpl.addClass('animated ' + animateEffect);
         $borderProductTpl.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
             $borderProductTpl.removeClass('animated ' + animateEffect);
 
         });
+    });
+	
+	$borderProductTpl.on('click', function (e) {
+	
+        $borderProductTpl.hide('slow');
+		setTimeout(function(){
+		$borderProductTpl.offset({top:0, left:0});
+		}, 500);
+		
+        
     });
 
     $toy.on('mouseover', function (e) {
