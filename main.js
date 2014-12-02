@@ -21,7 +21,6 @@ $(function () {
     var $productImg = $borderProductTpl.children('img');
     $body.append($borderProductTpl);
 
-    var randomAnimateClasses = ['zoomIn', 'flipInY', 'rotateIn', 'bounce', 'swing', 'bounceIn', 'wobble', 'tada'];
 
     $body.on('click', function (e) {
         //if(!$(e.target).hasClass('.toy'))
@@ -42,13 +41,12 @@ $(function () {
 
         $borderProductTpl
 		.hide(0, function(){
-			$borderProductTpl.show(600);
+			$borderProductTpl.show();
 		});
 		
-        var animateEffect = randomAnimateClasses[randomIntFromInterval(0, randomAnimateClasses.length-1)];
-        $borderProductTpl.addClass('animated ' + animateEffect);
+        $borderProductTpl.addClass('animated zoomIn');
         $borderProductTpl.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-            $borderProductTpl.removeClass('animated ' + animateEffect);
+            $borderProductTpl.removeClass('animated zoomIn');
 
         });
     });
