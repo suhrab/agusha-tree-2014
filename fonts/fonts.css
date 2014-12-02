@@ -1,0 +1,31 @@
+
+@font-face {
+  font-family: 'nokia_sans_s60regular';
+  src: url('NokiaSansS60.eot?#iefix') format('embedded-opentype'),  url('NokiaSansS60.woff') format('woff'), url('NokiaSansS60.ttf')  format('truetype'), url('NokiaSansS60.svg#NokiaSansS60') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nokia_sans_s60bold';
+  src: url('NokiaSansS60-Bold.eot?#iefix') format('embedded-opentype'),  url('NokiaSansS60-Bold.woff') format('woff'), url('NokiaSansS60-Bold.ttf')  format('truetype'), url('NokiaSansS60-Bold.svg#NokiaSansS60-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'velesbold';
+  src: url('Veles-Bold.eot?#iefix') format('embedded-opentype'),  url('Veles-Bold.otf')  format('opentype'),
+	     url('Veles-Bold.woff') format('woff'), url('Veles-Bold.ttf')  format('truetype'), url('Veles-Bold.svg#Veles-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'velesregular';
+  src: url('Veles-Regular.eot?#iefix') format('embedded-opentype'),  url('Veles-Regular.otf')  format('opentype'),
+	     url('Veles-Regular.woff') format('woff'), url('Veles-Regular.ttf')  format('truetype'), url('Veles-Regular.svg#Veles-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
