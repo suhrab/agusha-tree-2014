@@ -25,8 +25,7 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
-html, body
-{
+html, body {
 }
 
 body {
@@ -77,7 +76,7 @@ body {
 }
 
 .wrapper {
-    width: 590px;
+    width: 750px;
     margin: 0 auto;
     position: relative;
 }
@@ -92,9 +91,9 @@ body {
 }
 
 .headerText {
-    width: 428px;
-    height: 26px;
-    background-image: url("images/header_text2.png");
+    width: 641px;
+    height: 39px;
+    background-image: url("images/header_text.png");
     margin-left: 86px;
 }
 
@@ -123,9 +122,7 @@ body {
     z-index: 6;
     text-align: center;
     display: none;
-
     border-radius: 10px;
-
     -webkit-box-shadow: -1px 1px 49px -4px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 1px 49px -4px rgba(0,0,0,0.75);
     box-shadow: -1px 1px 49px -4px rgba(0,0,0,0.75);
@@ -136,7 +133,8 @@ body {
         max-height: 115px;
         top: 10px;
         margin: 0 auto;
-        vertical-align: middle;;
+        vertical-align: middle;
+        ;
     }
 
 .toy1 {
@@ -486,31 +484,33 @@ body {
 }
 
 .clouds {
-    width: 540px;
-    height: 293px;
-    background-image: url("images/clouds2.png");
+    width: 535px;
+    height: 298px;
+    background-image: url("images/clouds.png");
     position: absolute;
     top: -77px;
-    left: 18px;
+    left: 0px;
     z-index: 1;
 }
 
 .agulife {
-    width: 82px;
-    height: 43px;
+    width: 239px;
+    height: 142px;
     background-image: url("images/agulife.png");
     position: absolute;
-    top: 83px;
-    left: 408px;
+    top: 0px;
+    left: 395px;
+    cursor: pointer;
 }
 
 .agusha {
-    width: 65px;
-    height: 37px;
+    width: 184px;
+    height: 87px;
     background-image: url("images/agusha.png");
     position: absolute;
-    top: 124px;
-    left: 62px;
+    top: 45px;
+    left: 0px;
+    cursor:pointer;
 }
 
 .star {
@@ -533,14 +533,14 @@ body {
     background: url("images/footer2.png") repeat-x;
 }
 
-.descBlock{
- width: 590px;
- margin: 0 auto;
- padding-top: 101px;
- padding-left: 25px;
+.descBlock {
+    width: 590px;
+    margin: 0 auto;
+    padding-top: 101px;
+    padding-left: 25px;
 }
 
-.descText{
- font-family: 'nokia_sans_s60regular';
- font-size: 8px;
+.descText {
+    font-family: 'nokia_sans_s60regular';
+    font-size: 8px;
 }
